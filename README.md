@@ -1,13 +1,21 @@
+## HUGO
+
+See the link below for the basic usage of Hugo: [Basic usage](https://gohugo.io/overview/usage/)
+
 #### Build
 
-`hugo -t theme_folder_name`
+Build hugo locally `hugo -t theme_folder_name`
 
 #### Run
 
-`hugo server -t theme_folder_name`
+Run hugo locally for development purpose: `hugo server -t theme_folder_name`
 
-#### Deploy
+#### Deploy to Github Pages
 + Delete the current public folder `rm -rf public`.
 + Only at the first deploy, add the submodule: `git submodule add -b master https://github.com/andr3a88/andr3a88.github.io.git public`.
-+ `chmod +x deploy.sh`
++ Give permission `chmod +x deploy.sh`
 + Run `./deploy` to deploy on `public` submodule. Remember to push the changes on _website_ repository.
+
+### Themes 
+
++ Hugo GOA: [https://github.com/shenoybr/hugo-goa](https://github.com/shenoybr/hugo-goa)

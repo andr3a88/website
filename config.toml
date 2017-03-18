@@ -10,13 +10,13 @@ layoutdir = "layouts"
 publishdir = "public"
 
 author = "Andrea Stevanato"
-title = "Andrea Stevanato"
+title = "Andrea Stevanato - iOS Developer - andr3a88"
 
 theme = "hugo-goa"
 
 ## Hugo Built-in Features
-disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
-googleAnalytics = "XYZ"
+disqusShortname = "andr3a88" # Comment out to disable Disqus.
+#googleAnalytics = "UA-15186983-3"
 enableRobotsTXT = true
 
 ## Site Settings
@@ -30,38 +30,33 @@ dateformat = "Jan 2, 2006"
 ## Site Meta Settings
 [params.meta]
 description = "Simple minimalist theme"
-keywords = "minimalist,blog,goa,hugo,developer"
+keywords = "minimalist,blog,goa,hugo,developer,swift,swiftlang,ios,developer"
 
 ## Social Accounts
 [params.social]
 github = "andr3a88"
 instagram = "andr3a88"
-linkedin = "<username>"
+linkedin = "andrea-stevanato-27826187"
 twitter = "andrea_steva"
-facebook = "<username>"
-google = "<username>"
-stackoverflow = "<username>"
+facebook = "andr3a88"
+#google = "<username>"
+stackoverflow = "andr3a88"
 email = "stevanato.andrea@gmail.com"
 
 ## Extras
 [params.extra]
 copyright = "© 2017. Andrea Stevanato. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
-poweredby = true
+poweredby = false
 hightlightjs = true
 
 ## Main Menu
 [[menu.main]]
-    name = "blog"
-    weight = 100
-    identifier = "blog"
-    url = "/blog/"
-[[menu.main]]
     name = "about"
     identifier = "about"
-    weight = 200
+    weight = 100
     url = "/about/"
 [[menu.main]]
-    name = "coderag"
-    identifier = "coderag"
-    weight = 300
-    url = "/coderag/"
+    name = "blog"
+    weight = 200
+    identifier = "blog"
+    url = "/blog/"
