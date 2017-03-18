@@ -12,3 +12,4 @@
 + Run `./deploy` to deploy on `public` submodule. Remember to push the changes on _website_ repository.
 
 
+git submodule add -b master https://github.com/andr3a88/andr3a88.github.io.git public
