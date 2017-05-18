@@ -60,3 +60,8 @@ hightlightjs = true
     weight = 200
     identifier = "blog"
     url = "/blog/"
+[[menu.main]]
+    name = "code"
+    weight = 300
+    identifier = "code"
+    url = "/code/"

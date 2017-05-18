@@ -1,6 +1,6 @@
 ## HUGO
 
-See the link below for the basic usage of Hugo: [Basic usage](https://gohugo.io/overview/usage/)
+See the link below for the basic usage of Hugo: [Basic usage](https://gohugohug.io/overview/usage/)
 
 #### Build
 
