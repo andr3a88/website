@@ -11,6 +11,5 @@ showpagemeta = false
 showcomments = false
 +++
 
-Short description.
-
-My CV [Link](/)
+iOS Developer @ennovaresearch (Venice, Italy).                                     
+Swift and clean code enthusiast. Also working on backend development with NodeJS, Typescript.
