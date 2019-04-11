@@ -22,8 +22,8 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Andrea Stevanato"
-intro = "iOS Developer"
-description = "Now @EnnovaResearch."
+intro = "iOS Developer. Swift and clean code enthusiast. Also working on backend development with NodeJS, Typescript."
+description = "" # Now @
 authorimage = "andrea.jpg"
 dateformat = "Jan 2, 2006"
 

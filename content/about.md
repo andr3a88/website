@@ -11,5 +11,5 @@ showpagemeta = false
 showcomments = false
 +++
 
-iOS Developer @ennovaresearch (Venice, Italy).                                     
+iOS Developer - (Venice, Italy).                                     
 Swift and clean code enthusiast. Also working on backend development with NodeJS, Typescript.
