@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="Andrea Stevanato Personal web site">
+<meta name="keywords" content="blog,developer,swift,swiftlang,ios,developer,ios-dev,ios developer">
+
+<base href="https://andr3a88.github.io">
+
+<title>Andrea Stevanato - iOS Developer - andr3a88</title>
+
+<meta name="generator" content="Hugo 0.55.0" />
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+<link rel="stylesheet" href="https://andr3a88.github.io/css/main.css">
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+<body lang="en-US">
+<div class="container">
+
+
+<header class="row text-left title">
+  <h1 class="title">SwiftLint</h1>
+</header>
+<section id="category-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-left meta">
+        PUBLISHED ON MAR 20, 2017 
+      
+      
+      
+      —
+      
+      
+      <a class="meta" href="/categories/code">CODE</a>
+      
+      
+      
+    </h6>
+  </div>
+  
+</section>
+<section id="content-pane" class="row">
+  <div class="col-md-12 text-justify content">
+    
+
+<h3 id="installation">Installation</h3>
+
+<pre><code>brew install swiftlint
+</code></pre>
+
+<h3 id="usage">Usage</h3>
+
+<p>Integrate SwiftLint into an Xcode scheme to get warnings and errors displayed in the IDE. Just add a new &ldquo;Run Script Phase&rdquo; with:</p>
+
+<pre><code>if which swiftlint &gt;/dev/null; then
+  swiftlint
+else
+  echo &quot;warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint&quot;
+fi
+</code></pre>
+
+<h3 id="commands">Commands</h3>
+
+<pre><code>$ swiftlint help
+Available commands:
+
+   autocorrect  Automatically correct warnings and errors
+   help         Display general or command-specific help
+   lint         Print lint warnings and errors for the Swift files in the current directory (default command)
+   rules        Display the list of rules and their identifiers
+   version      Display the current version of SwiftLint
+
+</code></pre>
+
+<h3 id="my-configuration-file-swiftlint-yml">My configuration file (.swiftlint.yml)</h3>
+
+<pre><code>disabled_rules: # rule identifiers to exclude from running
+  - colon
+  - conditional_binding_cascade
+  - comma
+  - control_statement
+  - force_cast
+  - legacy_constant
+  - legacy_constructor
+  - line_length
+  - nesting
+  - todo
+  - trailing_whitespace
+  - type_name
+  - variable_name
+  - cyclomatic_complexity
+
+opt_in_rules: # some rules are only opt-in
+  #- empty_count
+  #- missing_docs
+
+included: # paths to include during linting. `--path` is ignored if present.
+  #- Folder
+  #- ../Folder/Pod
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+
+# These properties are marked as error by default.
+force_try: warning
+
+file_length:
+  warning: 550
+  error: 1200
+  
+function_body_length:
+  warning: 150
+  error: 200
+  
+type_body_length:
+  warning: 300
+  error: 1000
+  
+function_parameter_count:
+  warning: 10
+  error: 15
+</code></pre>
+
+<h3 id="repository">Repository</h3>
+
+<ul>
+<li><a href="https://github.com/realm/SwiftLint">SwiftLint Github</a></li>
+</ul>
+
+  </div>
+</section>
+<section id="tag-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-right meta">
+      
+      
+      
+      TAGS:
+      
+      
+      <a class="meta" href="/tags/cleancode">CLEANCODE</a>, 
+      
+      <a class="meta" href="/tags/iosdev">IOSDEV</a>, 
+      
+      <a class="meta" href="/tags/realm">REALM</a>, 
+      
+      <a class="meta" href="/tags/swift">SWIFT</a>, 
+      
+      <a class="meta" href="/tags/swiftlint">SWIFTLINT</a>
+      
+      
+      
+    </h6>
+  </div>
+  
+</section>
+
+
+
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "andr3a88" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+<section id="menu-pane" class="row menu text-center">
+  
+  
+  <span><a class="menu-item" href="https://andr3a88.github.io/code/objc-codestyle/">&lt; prev | </a></span>
+  
+  
+  <span><a class="menu-item" href="/code">code</a></span>
+  
+  
+  <span><a class="menu-item" href="https://andr3a88.github.io/code/cocoapods/"> | next &gt;</a></span>
+  
+  
+  <h4 class="text-center"><a class="menu-item" href="https://andr3a88.github.io">home</a></h4>
+</section>
+
+
+
+<footer class="row text-center footer">
+  <hr />
+  
+  <h6 class="text-center copyright">© 2020. Andrea Stevanato. <a href="http://creativecommons.org/licenses/by/3.0/">Some Rights Reserved</a>.</h6>
+  
+  
+</footer>
+
+</div>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
+
