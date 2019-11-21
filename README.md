@@ -16,6 +16,10 @@ Run hugo locally for development purpose: `hugo server -t theme_folder_name`
 + Give permission `chmod +x deploy.sh`
 + Run `./deploy` to deploy on `public` submodule. Remember to push the changes on _website_ repository.
 
+#### Issue with submodule?
+
+Type on terminal `git rm --cached public`
+
 ### Themes 
 
 + Hugo GOA: [https://github.com/shenoybr/hugo-goa](https://github.com/shenoybr/hugo-goa)
