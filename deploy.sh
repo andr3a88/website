@@ -21,7 +21,7 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git -c credential.helper=sourcetree push origin master
+git -c credential.helper=osxkeychain push origin master
 
 # Come Back
 cd ..
