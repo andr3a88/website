@@ -11,6 +11,6 @@ showpagemeta = false
 showcomments = false
 +++
 
-iOS Developer - (Venice, Italy). 
+Tech Lead and iOS Developer - (Venice, Italy). 
 
-Hi! My name is Andrea, I am 31 years old and I live near Venice. I have a Master’s Degree in Computer Engineering from the University of Padua, after the Bachelor's degree of the same course. I worked in a company for the last 5 years dealing with software development, in particular as iOS and Backend Developer. I like sports, I love traveling and I am very passionate about technology.
+Tech Lead and iOS Developer for the Platform Mobile team at ShopFully. I work remotely and live in Venice, in the province of Venice. I am passionate about sports, particularly tennis and running. I enjoy watching TV series and I love to travel!
