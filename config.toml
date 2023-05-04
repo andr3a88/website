@@ -23,7 +23,7 @@ enableRobotsTXT = true
 [params]
 author = "Andrea Stevanato"
 intro = "Tech Lead and iOS Developer. Swift and clean code enthusiast. Also working on backend development with NodeJS, Typescript."
-description = "Now @ ShopFully - ShopFully International Group"
+description = "Now @ ShopFully"
 authorimage = "andrea.jpg"
 dateformat = "Jan 2, 2006"
 
@@ -39,15 +39,13 @@ linkedin = "andrea-stevanato-27826187"
 twitter = "andrea_steva"
 stackoverflow = "andr3a88"
 medium = "andr3a88"
-facebook = "andr3a88"
-instagram = "andr3a88"
 
 ## Extras
 [params.extra]
-copyright = "© 2020. Andrea Stevanato. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+copyright = "© 2023. Andrea Stevanato. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
 poweredby = false
 hightlightjs = true
-rss = true 
+rss = false 
 socialmarkup = true
 
 ## Main Menu
