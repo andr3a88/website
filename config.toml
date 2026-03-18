@@ -10,7 +10,7 @@ layoutdir = "layouts"
 publishdir = "public"
 
 author = "Andrea Stevanato"
-title = "Andrea Stevanato - iOS Developer - andr3a88"
+title = "Andrea Stevanato - Senior iOS Developer - andr3a88"
 
 theme = "hugo-goa"
 
@@ -23,14 +23,14 @@ enableRobotsTXT = true
 [params]
 author = "Andrea Stevanato"
 intro = "Tech Lead and iOS Developer. Swift and clean code enthusiast. Also working on backend development with NodeJS, Typescript."
-description = "Now @ ShopFully"
+description = "Now @ Amiko.io"
 authorimage = "andrea.jpg"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]
 description = "Andrea Stevanato Personal web site"
-keywords = "blog,developer,swift,swiftlang,ios,developer,ios-dev,ios developer"
+keywords = "blog,developer,swift,swiftlang,ios,developer,ios-dev,ios developer,ios-dev,ios developer,ios,developer,ios-dev,ios developer,swift,swiftlang,blog,developer,swift,swiftlang,ios,developer,ios-dev,ios developer,ios-dev,ios developer,ios,developer,ios-dev,ios developer,swift,swiftlang, ai, artificial intelligence, machine learning, deep learning, data science, big data, neural networks, natural language processing, computer vision, robotics, automation"
 
 ## Social Accounts
 [params.social]
@@ -38,11 +38,11 @@ github = "andr3a88"
 linkedin = "andrea-stevanato-27826187"
 twitter = "andrea_steva"
 stackoverflow = "andr3a88"
-medium = "andr3a88"
+medium = "@andr3a88"
 
 ## Extras
 [params.extra]
-copyright = "© 2023. Andrea Stevanato. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+copyright = "© 2026. Andrea Stevanato. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
 poweredby = false
 hightlightjs = true
 rss = false 
@@ -50,17 +50,7 @@ socialmarkup = true
 
 ## Main Menu
 [[menu.main]]
-    name = "about"
-    identifier = "about"
-    weight = 100
-    url = "/about/"
-[[menu.main]]
     name = "blog"
     weight = 200
     identifier = "blog"
     url = "/blog/"
-[[menu.main]]
-    name = "code"
-    weight = 300
-    identifier = "code"
-    url = "/code/"
