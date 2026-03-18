@@ -9,7 +9,7 @@ hugo -t hugo-goa
 echo "Building..."
 
 # Go To Public folder
-cd public
+cd website
 # Add changes to git.
 git add -A
 

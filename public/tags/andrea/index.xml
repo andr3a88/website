@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andrea on Andrea Stevanato - Senior iOS Developer - andr3a88</title>
+    <link>https://andr3a88.github.io/tags/andrea/</link>
+    <description>Recent content in Andrea on Andrea Stevanato - Senior iOS Developer - andr3a88</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 19 Apr 2024 12:00:00 +0200</lastBuildDate>
+    <atom:link href="https://andr3a88.github.io/tags/andrea/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JSON encode an array of different types in Swift on Medium</title>
+      <link>https://andr3a88.github.io/blog/second/</link>
+      <pubDate>Fri, 19 Apr 2024 12:00:00 +0200</pubDate>
+      <guid>https://andr3a88.github.io/blog/second/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@andr3a88/json-encode-an-array-of-different-types-in-swift-dd8510aa8cfc&#34;&gt;JSON encode an array of different types in Swift on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Improve your code reviews using Danger Swift on Bitrise CI</title>
+      <link>https://andr3a88.github.io/blog/first/</link>
+      <pubDate>Thu, 21 Nov 2019 12:00:00 +0200</pubDate>
+      <guid>https://andr3a88.github.io/blog/first/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@andr3a88/improve-your-code-reviews-using-danger-swift-on-bitrise-ci-e05c90a03244&#34;&gt;Improve your code reviews using Danger Swift on Bitrise CI on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
